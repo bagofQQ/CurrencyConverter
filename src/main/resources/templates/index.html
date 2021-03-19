@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/conversion.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <h1>Cервис для конвертации</h1>
+    <button id="show-conversion-form">Конвертация</button>
+    <div id="conversion-form">
+        <form>
+            <h2>Конвертация</h2>
+            <label>Выбор исходной валюты</label>
+            <button id="rurIn">RUR</button><button id="usdIn">USD</button><button id="eurIn">EUR</button><button id="gbpIn">GBP</button>
+            <input type="hidden" id="oan" name="originalAmountName" value="">
+            <label>Сумма исходной валюты:</label>
+            <input type="text" name="originalAmount" value="">
+            <hr>
+            <label>Выбор целевой валюты</label>
+            <button id="rurOut">RUR</button><button id="usdOut">USD</button><button id="eurOut">EUR</button><button id="gbpOut">GBP</button>
+            <input type="hidden" id="tan" name="targetAmountName" value="">
+            <hr>
+            <button id="conversion">Конвертировать</button>
+        </form>
+    </div>
+
+    <div id="conversion-out-form">
+        <form>
+            <label>Перевод</label>
+            <div id="out">
+            </div>
+            <button id="cсс">Закрыть</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

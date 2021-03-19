@@ -1,0 +1,71 @@
+* {
+    font-family: Arial;
+}
+
+#conversion-form {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #88888878;
+}
+
+#conversion-form form {
+    background-color: white;
+    border: 1px solid #333;
+    width: 300px;
+    padding: 20px;
+}
+
+#conversion-form h2 {
+    margin-top: 0;
+}
+
+#conversion-form label {
+    display: block;
+}
+
+#conversion-form form > * {
+    margin-bottom: 5px;
+}
+
+#conversion-out-form {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #88888878;
+}
+
+#conversion-out-form form {
+    background-color: white;
+    border: 1px solid #333;
+    width: 300px;
+    padding: 20px;
+}
+
+#conversion-out-form h2 {
+    margin-top: 0;
+}
+
+#conversion-out-form label {
+    display: block;
+}
+
+#conversion-out-form form > * {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
